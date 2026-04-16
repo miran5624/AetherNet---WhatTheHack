@@ -73,7 +73,7 @@ Raise SOS (typed + contextual details)
 
 ## Features
 
-### 🆘 SOS System
+### SOS System
 | Feature | Description |
 |---|---|
 | **Typed SOS** | 6 emergency categories: Medical, Car Problem, Fire, Gas Leak, Threat, General Help |
@@ -84,7 +84,7 @@ Raise SOS (typed + contextual details)
 | **Accept / Decline** | Responders see Accept/Decline buttons. Accepting opens the mutual live session |
 | **False Alert Flag** | Responders can flag fake SOS. Users with 3+ flags are automatically suspended |
 
-### 🗺️ Live Mutual Response View
+### Live Mutual Response View
 | Feature | Description |
 |---|---|
 | **Real-time Map** | Leaflet-based map (web) / Google Maps (mobile) showing seeker (red) and responder (blue) positions updating live |
@@ -94,7 +94,7 @@ Raise SOS (typed + contextual details)
 | **Resolve & Rate** | Seeker marks as resolved → prompts 5-star rating for the responder |
 | **Auto-close** | View auto-closes 3 seconds after resolution for both parties |
 
-### 🤖 AI Crisis Assistant
+### AI Crisis Assistant
 | Feature | Description |
 |---|---|
 | **First-Response Guidance** | Gemini AI generates a numbered action checklist for the seeker based on their SOS type |
@@ -102,7 +102,7 @@ Raise SOS (typed + contextual details)
 | **AI Chat (Dashboard)** | In-app AI assistant accessible for general questions |
 | **Claude Fallback** | Anthropic Claude serves as an AI fallback model if Gemini is unavailable |
 
-### 📱 Mobile Application (Android)
+### Mobile Application (Android)
 | Feature | Description |
 |---|---|
 | **React Native** | Native Android app sharing the same backend and socket infrastructure |
@@ -111,7 +111,7 @@ Raise SOS (typed + contextual details)
 | **Push Notifications** | Responder alerts delivered natively on Android even when app is backgrounded |
 | **Shared Auth** | Same JWT-based authentication as the web platform — one account, both platforms |
 
-### 👤 User Profiles & Skills
+###  User Profiles & Skills
 | Feature | Description |
 |---|---|
 | **Skill Registry** | Users declare professional skills (Medical, Car Diagnosis, etc.) used for priority routing |
@@ -120,7 +120,7 @@ Raise SOS (typed + contextual details)
 | **Trust Score** | Responders earn trust points for helping; seekers lose points for false alerts |
 | **Responder History** | Full log of past SOS responses with timestamps and status |
 
-### 📊 Live Dashboards
+###  Live Dashboards
 | Feature | Description |
 |---|---|
 | **Today's Activity Stats** | Live-updating counters: Total SOS, Resolved Today, Avg Response Time |
@@ -129,7 +129,7 @@ Raise SOS (typed + contextual details)
 | **User Suspension** | Admins can manually suspend users; automatic suspension on repeated false alerts |
 | **Welfare Check** | Background job sends a post-resolution check message 24 hours after an incident |
 
-### 🔔 Notifications
+###  Notifications
 | Feature | Description |
 |---|---|
 | **Real-time Alerts** | Priority and standard SOS alerts pushed via WebSocket |
@@ -289,11 +289,6 @@ The mobile app uses the Google Maps SDK for native GPS rendering. You must provi
     android:name="com.google.android.geo.API_KEY"
     android:value="YOUR_GOOGLE_MAPS_API_KEY_HERE" />
 ```
-
-> [!IMPORTANT]
-> **Maps API Key Security:** Do not commit your real Google Maps API key to GitHub. Use a placeholder in `AndroidManifest.xml` and add your real key locally. For production, restrict your API key to your app's SHA-1 certificate fingerprint in the [Google Cloud Console](https://console.cloud.google.com/).
-
----
 
 ## Getting Started
 
