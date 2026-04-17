@@ -39,7 +39,7 @@ A real-time, community-driven emergency coordination platform that connects peop
 | Capability | AetherNet | Typical Emergency Apps |
 |---|---|---|
 | Anonymous SOS (no signup) | ✅ | ❌ |
-| AI first-response guidance | ✅ Gemini + Claude | ❌ |
+| AI first-response guidance | ✅ Gemini | ❌ |
 | Skill-based responder routing | ✅ | ❌ |
 | Live mutual GPS tracking | ✅ Seeker + Responder | ❌ |
 | Guardian pre-alerts | ✅ | ❌ |
