@@ -1,5 +1,7 @@
 # AetherNet — Community Emergency Response Platform
-
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1JGMC6qH5w2Hp6yAe0E41GWxj6QBVC8lu" alt="Centered Image" />
+</p>
 > **A real-time, community-driven emergency coordination platform** that connects people in crisis with nearby helpers using AI guidance, live maps, and secure chat — available on Web and Android.
 
 <div align="center">
